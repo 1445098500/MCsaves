@@ -1,0 +1,23 @@
+{
+	id: "546c29e5-9197-4f2a-9500-d018e90cd911"
+	type: "party"
+	owner: "d1b04040-050c-4470-9f2b-50de2ddcedfe"
+	ranks: {
+		d898f015-6174-30ba-b4d6-d8a287570530: "invited"
+		2ad3dc29-a9e5-3408-92dd-d6b22323906f: "member"
+		d1b04040-050c-4470-9f2b-50de2ddcedfe: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "canyuPP's Party"
+		"ftbteams:color": "#FEFF59"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1652245157102L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"canyuPP\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "d1b04040-050c-4470-9f2b-50de2ddcedfe", date: 1652245193981L, text: "{\"color\":\"green\",\"text\":\"Invited Kigoooo\"}" }
+		{ from: "d1b04040-050c-4470-9f2b-50de2ddcedfe", date: 1652245201739L, text: "{\"color\":\"green\",\"text\":\"Invited jojochannel0320\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1652245214538L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Kigoooo\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

@@ -1,0 +1,14 @@
+{
+	id: "2ad3dc29-a9e5-3408-92dd-d6b22323906f"
+	type: "player"
+	player_name: "Kigoooo"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Kigoooo"
+		"ftbteams:color": "#FF59D1"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

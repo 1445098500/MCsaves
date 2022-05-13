@@ -1,0 +1,14 @@
+{
+	id: "d1b04040-050c-4470-9f2b-50de2ddcedfe"
+	type: "player"
+	player_name: "canyuPP"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "canyuPP"
+		"ftbteams:color": "#599DFF"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

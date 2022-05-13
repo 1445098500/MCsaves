@@ -1,0 +1,16 @@
+{
+	id: "82b49d23-dc61-3245-9935-7f062a237aae"
+	type: "player"
+	player_name: "laowei"
+	ranks: {
+		82b49d23-dc61-3245-9935-7f062a237aae: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "laowei"
+		"ftbteams:color": "#59FFB9"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

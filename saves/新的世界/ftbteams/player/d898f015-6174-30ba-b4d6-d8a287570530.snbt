@@ -1,0 +1,16 @@
+{
+	id: "d898f015-6174-30ba-b4d6-d8a287570530"
+	type: "player"
+	player_name: "jojochannel0320"
+	ranks: {
+		d898f015-6174-30ba-b4d6-d8a287570530: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "jojochannel0320"
+		"ftbteams:color": "#D6FF59"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

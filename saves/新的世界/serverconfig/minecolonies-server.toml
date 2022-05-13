@@ -1,0 +1,273 @@
+
+#所有与市民名称有关的配置
+[names]
+	#男性定居者使用的名 
+	malefirstnames = ["Akio", "Akira", "Aoi", "Arata", "Ayumu", "Daichi", "Daiki", "Daisuke", "Goro", "Gorou", "Gabin", "Hachiro", "Haru", "Haruki", "Haruto", "Hayato", "Hibiki", "Hideaki", "Hideyoshi", "Hikaru", "Hinata", "Hiraku", "Hiroshi", "Hiroto", "Hotaka", "Ichiro", "Ichiru", "Isamu", "Itsuki", "Jiro", "Jirou", "Jurou", "Kaede", "Kaito", "Kaoru", "Katashi", "Katsu", "Katsuo", "Katsuro", "Kazuki", "Kazuo", "Ken", "Kenichi", "Kenji", "Kenshin", "Kenta", "Kichiro", "Kiyoshi", "Kohaku", "Kouki", "Kouta", "Kuro", "Kyo", "Makoto", "Masaru", "Michi", "Minoru", "Naoki", "Noboru", "Nobu", "Noburu", "Nobuyuki", "Nori", "Osamu", "Ren", "Riku", "Rikuto", "Rokuro", "Rokurou", "Ryo", "Ryoichi", "Ryota", "Ryou", "Ryouichi", "Ryouta", "Ryuu", "Ryuunosuke", "Saburo", "Saburou", "Shichiro", "Shichirou", "Shin", "Shinobu", "Shiro", "Shirou", "Sho", "Shou", "Shouta", "Sora", "Souta", "Susumu", "Taichi", "Taiki", "Takahiro", "Takashi", "Takehiko", "Takeshi", "Takuma", "Takumi", "Taro", "Tarou", "Tsubasa", "Yamato", "Yasu", "Yori", "Yoshi", "Yoshiro", "Yoshirou", "Youta", "Yuu", "Yuudai", "Yuuki", "Yuuma", "Yuuta", "Yuuto", "Akifumi", "Akihiko", "Akihiro", "Akimitsu", "Akito", "Agito", "Ryoma", "Shiki", "Kaname", "Yato", "Asuma", "Daichi", "Eiji", "Eijirou", "Einosuke", "Fumihiko", "Fuyuki", "Gakuto", "Gin", "Haruhiko", "Harumitsu", "Haruo", "Hiroshi", "Hayao", "Hisaki", "Heiichiro", "Heisuke", "Hisanobu", "Hideki", "Hidemitsu", "Hokuto", "Hozumi", "Ikki", "Jinichi", "Junichiro", "Junpei", "Katsuhiko", "Katsumoto", "Katsutomo", "Katsuya", "Kazuki", "Kenichiro", "Kimihiro", "Kimimaru", "Mamoru", "Minato", "Masahiro", "Masahi", "Masamune", "Masato", "Michiro", "Minoru", "Naofumi", "Noriaki", "Norio", "Okimoto", "Otohiko", "Ryuuhei", "Sanji", "Satonari", "Uryu", "Kysen"]
+	#女性定居者使用的名 
+	femalefirstnames = ["Ai", "Aiko", "Aimi", "Aina", "Airi", "Akane", "Akemi", "Aki", "Akiko", "Akira", "Ami", "Aoi", "Asuka", "Atsuko", "Aya", "Ayaka", "Ayako", "Ayame", "Ayane", "Ayano", "Chika", "Chikako", "Chinatsu", "Chiyo", "Chiyoko", "Cho", "Chou", "Chouko", "Emi", "Etsuko", "Hana", "Hanako", "Haruko", "Haruka", "Haruna", "Hikari", "Hikaru", "Hina", "Hinata", "Hiroko", "Hitomi", "Honoka", "Hoshi", "Hoshiko", "Hotaru", "Izumi", "Junko", "Kaede", "Kanon", "Kaori", "Kaoru", "Kasumi", "Kazuko", "Keiko", "Kiku", "Kimiko", "Kiyoko", "Kohaku", "Kokoro", "Kotone", "Kumiko", "Kyo", "Kyou", "Mai", "Makoto", "Mami", "Manami", "Mao", "Mariko", "Masami", "Masuyo", "Mayu", "Megumi", "Mei", "Michi", "Michiko", "Midori", "Miki", "Miku", "Minako", "Mio", "Misaki", "Mitsuko", "Miu", "Miyako", "Miyu", "Mizuki", "Moe", "Momoka", "Momoko", "Moriko", "Nana", "Nanami", "Naoko", "Naomi", "Natsuki", "Natsuko", "Natsumi", "Noa", "Noriko", "Ran", "Rei", "Ren", "Riko", "Rin", "Rina", "Rio", "Sachiko", "Saki", "Sakura", "Sakurako", "Satomi", "Sayuri", "Setsuko", "Shinju", "Setsuna", "Shinobu", "Shiori", "Shizuka", "Shun", "Sora", "Sumiko", "Suzu", "Suzume", "Takako", "Takara", "Tamiko", "Tomiko", "Tomoko", "Tomomi", "Tsubaki", "Tsubame", "Tsukiko", "Ume", "Umeko", "Wakana", "Yasu", "Yoko", "Yoshi", "Yoshiko", "Youko", "Yua", "Yui", "Yukiko", "Yuko", "Yumi", "Yumiko", "Yuri", "Yuu", "Yuuka", "Yuuki", "Yuuko", "Yuuna", "Yuzuki", "Emiri", "Fujie", "Fujiko", "Fuuka", "Fumi", "Fumiko", "Fuyumi", "Ichiko", "Ikue", "Ikuko", "Io", "Juri", "Kahori", "Kana", "Kanae", "Karin", "Kaya", "Kikyo", "Kagome", "Koharu", "Mimori", "Momo", "Nami", "Omi", "Otoha", "Otome", "Uta", "Wakako", "Saku", "Mineko", "Sachie", "Yona"]
+	#市民是否有中间名 [默认: true]
+	usemiddleinitial = false
+	#新的市民是否使用东方式的姓名顺序 (姓前名后)？ [默认: false]
+	useeasternnameorder = true
+	#定居者所使用的的姓氏 
+	lastnames = ["Sato", "Suzuki", "Takahashi", "Tanaka", "Watanabe", "Ito", "Yamamoto", "Nakamura", "Kobayashi", "Kato", "Yoshida", "Yamada", "Sasaki", "Yamaguchi", "Saito", "Matsumoto", "Inoue", "Kimura", "Hayashi", "Shimizu", "Yamazaki", "Mori", "Abe", "Ikeda", "Hashimoto", "Yamashita", "Ishikawa", "Nakajima", "Maeda", "Fujita", "Ogawa", "Goto", "Okada", "Hasegawa", "Murakami", "Kondo", "Ishii", "Nobunaga", "Sakamoto", "Endo", "Aoki", "Fujii", "Nishimura", "Fukuda", "Ota", "Miura", "Fujiwara", "Okamoto", "Matsuda", "Nakagawa", "Nakano", "Harada", "Ono", "Tamura", "Takeuchi", "Kaneko", "Wada", "Nakayama", "Ishida", "Ueda", "Morita", "Hara", "Shibata", "Sakai", "Kudo", "Yokoyama", "Miyazaki", "Miyamoto", "Uchida", "Takagi", "Ando", "Taniguchi", "Ohno", "Maruyama", "Imai", "Takada", "Fujimoto", "Murata", "Takeda", "Ueno", "Sugiyama", "Masuda", "Sugawara", "Hirano", "Kojima", "Otsuka", "Chiba", "Kubo", "Matsui", "Iwasaki", "Sakurai", "Kinoshita", "Noguchi", "Matsuo", "Nomura", "Kikuchi", "Sano", "Onishi", "Sugimoto", "Arai", "Narita", "Adachi", "Akamine", "Amano", "Anzai", "Aoki", "Arakawa", "Asa", "Date", "Fujino", "Fukui", "Fukurama", "Fuse", "Hada", "Hamada", "Hamasaki", "Handa", "Go", "Goda", "Goto", "Hattori", "Hirabayashi", "Hirai", "Hino", "Ida", "Ide", "Iida", "Ikeda", "Ikahara", "Imamura", "Isa", "Ishibashi", "Isobe", "Itoh", "Iwai", "Iwaizumi", "Tooru", "Jin", "Kaba", "Kai", "Kamei", "Kaji", "Kamiya", "Kanemoto", "Kaneshiro", "Shirogane", "Shirou", "Kise", "Daisuki", "Kagami", "Kaya", "Kawabata", "Kawai", "Kido", "Kita", "Kitagawa", "Kiyabu", "Kobashigawa", "Koda", "Kodama", "Komatsu", "Koizumi", "Kon", "Konishi", "Kusumoto", "Kurata", "Machi", "Mae", "Maki", "Makino", "Masaki", "Matsuoka", "Mihara", "Miki", "Minami", "Miyake", "Miyashita", "Miyashiro", "Muto", "Nagai", "Nagamine", "Nagao", "Nagata", "Nakahara", "Nakama", "Nakanishi", "Namba", "Nii", "Nishi", "Niwa", "No", "Noda", "Noya", "Oba", "Obara", "Nobunaga", "Okimoto", "Omura", "Sada", "Sakaguchi", "Sasaki", "Seto", "Shimomura", "Shiraishi", "Choji", "Takemoto", "Takashima", "Taniguchi", "Usui", "Yagi", "Yasui"]
+
+#所有的配置选项都与核心玩法有关
+[gameplay]
+	#初始市民数量 [默认：4，最小：1，最大：10]
+	#Range: 1 ~ 10
+	initialcitizenamount = 4
+	#是否允许在施工中的建筑物周围放置施工围栏？ [默认: true]
+	builderplaceconstructiontape = true
+	#玩家是否可以无限放置补给船/营地？ [默认: false]
+	allowinfinitesupplychests = false
+	#是否允许玩家弃用他的殖民地并创造新的殖民地？注意：这可能会出现未知的问题！ [默认: false]
+	allowinfinitecolonies = false
+	#是否允许在其他维度创建殖民地？ [默认: true]
+	allowotherdimcolonies = true
+	#如果一个殖民地的人口数低于最初的市民数，则使用此项的重生间隔。 [默认：60，最小：10，最大：600]
+	#Range: 10 ~ 600
+	citizenrespawninterval = 20
+	#单殖民地最大市民数量 [默认：250，最小：4，最大：500]
+	#Range: 4 ~ 500
+	maxcitizenpercolony = 500
+	#是否允许建筑工和矿工不消耗资源进行工作？(这也会使矿工停止生产资源) [默认: false]
+	builderinfiniteresources = false
+	#一个殖民地是否最多只有一个仓库？ [默认: false]
+	limittoonewarehousepercolony = false
+	#方块放置间隔 (值增大，延迟也增大) [默认：15，最小：1，最大：500]
+	#Range: 1 ~ 500
+	builderbuildblockdelay = 1
+	#挖掘方块间隔 (值减少，挖掘速度减慢) [默认：500，最小：1，最大：10000]
+	#Range: 1 ~ 10000
+	blockminingdelaymodifier = 1
+	#是否启用实验特性（可能存在BUG）？ [默认: false]
+	enableindevelopmentfeatures = false
+	#是否显示市民姓名标签？ [默认: true]
+	alwaysrendernametag = true
+	#儿童生长系数。儿童在生长系数为1（默认系数）的情况下平均生长时间大约是1小时。例如5就是快五倍。 [默认：1.000000，最小：1.000000，最大：100.000000
+	#Range: 1.0 ~ 100.0
+	growthmodifier = 1.5
+	#工人是否在雨中工作 [默认: false]
+	workersalwaysworkinrain = true
+	#玩家会在进入或离开殖民地时收到消息吗？ [默认: true]
+	sendenteringleavingmessages = true
+	#是否允许玩家更改市民名字？ -1 代表否，0 代表仅指定玩家，1 代表是。（要设置哪些玩家可以更改名称，请参阅下面的“特殊权限组”。） [默认：1，最小：-1，最大：1]
+	#Range: -1 ~ 1
+	allowglobalnamechanges = 1
+	#是否显示特殊节日内容？ [默认: true]
+	holidayfeatures = true
+	#AI 更新速率，增加该值可以提升性能，并降低市民AI的更新频率。 [默认：1，最小：1，最大：100]
+	#Range: 1 ~ 100
+	updaterate = 1
+	#每单位堆肥产生的泥土量 [默认：1，最小：0，最大：100]
+	#Range: 0 ~ 100
+	dirtfromcompost = 1
+	#挖掘圆石或石头(默认设置，可以使用数据包扩展到其他材料) 时，矿工获得矿石的几率。百分比为单位。(要修改矿工能获取的矿石，参见“矿物列表”选项) [默认：1，最小：0，最大：100]
+	#Range: 0 ~ 100
+	luckyblockchance = 6
+	#自动修复由于区块保存或加载错误而导致的孤立区块 [默认: false]
+	fixorphanedchunks = false
+	#建筑工在地下是否工作地更慢？ [默认: true]
+	restrictbuilderunderground = false
+	#从渔夫处获得海绵的几率 (小屋等级要求 4) [默认：0.100000，最小：0.000000，最大：100.000000
+	#Range: 0.0 ~ 100.0
+	fisherspongechance = 0.1
+	#从渔夫处获得海晶碎片/海晶砂粒的几率 (小屋等级要求 3)。海晶石的总的掉落几率是该数值的两倍。 [默认：2.500000，最小：0.000000，最大：100.000000
+	#Range: 0.0 ~ 100.0
+	fisherprismarinechance = 2.5
+	#市政厅至少需要多少级才可启用传送至盟友殖民地功能。 [默认：3，最小：0，最大：5]
+	#Range: 0 ~ 5
+	minthleveltoteleport = 3
+	#未使用建筑工具放置建筑时，提醒玩家使用建筑工具。 [默认: true]
+	suggestbuildtoolplacement = true
+	#食物消耗系数 [默认：1.000000，最小：0.100000，最大：100.000000
+	#Range: 0.1 ~ 100.0
+	foodmodifier = 1.5
+	#疾病发生频率。1 = 非常常见，100 = 非常罕见。 [默认：5，最小：1，最大：100]
+	#Range: 1 ~ 100
+	diseasemodifier = 20
+	#如果殖民地仅一部分区块被其 所有者/市长 加载，殖民地是否仍应当被载入。(在 “殖民地区块加载下限” 设置至少多少区块被加载才载入殖民地) [默认: false]
+	forceloadcolony = true
+	#这个选项与 ”强制载入殖民地“选项 协同控制区块载入的数量，此选项的值越高，越少的区块被载入。(最中心区块将会被首先加载) 1=加载所有被圈地的区块 [默认：3，最小：1，最大：15]
+	#Range: 1 ~ 15
+	colonyloadstrictness = 2
+	#酒馆客人恶意耗尽你提供的物品的几率，以百分比为单位 [默认：2，最小：1，最大：100]
+	#Range: 1 ~ 100
+	badvisitorchance = 2
+	#是否在战利品箱内生成 补给船 和 补给营地 战利品 [默认: true]
+	generatesupplyloot = false
+	#minecolonies.config.maxtreesize.comment [默认：400，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	maxtreesize = 400
+
+#与研究系统有关的设置
+[research]
+	#在创造模式下自动并且(几乎) 瞬间完成研究。如果是false，创造模式玩家仍能开启研究，但研究速度和生存模式一样。 [默认: true]
+	researchcreativecompletion = true
+	#显著提高在世界加载时与 [研究|数据包] 有关的日志的量 [默认: false]
+	researchdebuglog = false
+	#消耗列表中的物品来撤销一项已完成的研究 
+	researchresetcost = ["minecolonies:ancienttome:1"]
+
+#所有与模拟殖民地命令有关的配置
+[commands]
+	#是否允许玩家使用 /mc rtp 命令？ [默认: false]
+	canplayerusertpcommand = false
+	#是否允许玩家使用 /mc colony teleport 命令？ [默认: false]
+	canplayerusecolonytpcommand = false
+	#玩家是否可传送至盟友的殖民地？ [默认: true]
+	canplayeruseallytownhallteleport = true
+	#是否允许玩家使用 /mc home 命令？注意：只有殖民地的所有者才能使用此命令。 [默认: false]
+	canplayerusehometpcommand = false
+	#是否允许玩家使用 /mc colony info 命令？ [默认: true]
+	canplayeruseshowcolonyinfocommand = true
+	#是否允许玩家使用 /mc citizens kill 命令？ [默认: false]
+	canplayerusekillcitizenscommand = false
+	#是否允许玩家使用 /mc colony addOfficer 命令？ [默认: true]
+	canplayeruseaddofficercommand = true
+	#是否允许玩家使用 /mc colony delete 命令？ [默认: true]
+	canplayerusedeletecolonycommand = true
+	#尝试寻找安全的随机传送点的次数（影响 /mc rtp 命令）。 [默认：4，最小：1，最大：10]
+	#Range: 1 ~ 10
+	numberofattemptsforsafetp = 4
+
+#与殖民地领地有关的设置
+[claims]
+	#殖民地的最大领地范围。半径，以区块为单位。 [默认：20，最小：1，最大：50]
+	#Range: 1 ~ 50
+	maxColonySize = 50
+	#殖民地之间的最小间距 (以区块为单位)。 [默认：8，最小：1，最大：200]
+	#Range: 1 ~ 200
+	minColonyDistance = 30
+	#殖民地的初始领地范围。半径，以区块为单位。 [默认：4，最小：1，最大：15]
+	#Range: 1 ~ 15
+	initialColonySize = 6
+	#是否限制殖民地放置的位置必须在世界出生点的一定范围内？ [默认: false]
+	restrictcolonyplacement = false
+	#殖民地距离世界出生点的最大距离 (单位：方块) [默认：8000，最小：1000，最大：100000]
+	#Range: 1000 ~ 100000
+	maxdistancefromworldspawn = 100000
+	#殖民地距离世界出生点的最小距离 (单位：方块) [默认：512，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	mindistancefromworldspawn = 1
+	#市长是否能接收到自己殖民地的成就信息？ [默认: true]
+	officersreceiveadvancements = true
+
+#所有的配置选项均与模拟殖民地的战斗元素有关
+[combat]
+	#是否生成入侵者 [默认: true]
+	dobarbariansspawn = true
+	#入侵者难度设置 [默认：5，最小：0，最大：10]
+	#Range: 0 ~ 10
+	barbarianhordedifficulty = 5
+	#入侵者数量的最小值 [默认：5，最小：1，最大：10]
+	#Range: 1 ~ 10
+	spawnbarbariansize = 5
+	#入侵者数量的最大值 [默认：80，最小：6，最大：400]
+	#Range: 6 ~ 400
+	maxBarbarianSize = 50
+	#入侵者是否可以破坏、攀爬、建造障碍物 [默认: true]
+	dobarbariansbreakthroughwalls = true
+	#两次袭击间隔的平均天数 [默认：14，最小：1，最大：50]
+	#Range: 1 ~ 50
+	averagenumberofnightsbetweenraids = 18
+	#最短袭击间隔的天数 [默认：10，最小：1，最大：30]
+	#Range: 1 ~ 30
+	minimumnumberofnightsbetweenraids = 15
+	#怪物是否攻击市民？ [默认: true]
+	mobattackcitizens = true
+	#决定入侵者是否能够破坏关闭的门。 [默认: true]
+	shouldraiderbreakdoors = true
+	#当市民被攻击时是否会向卫兵寻求帮助？ [默认: true]
+	citizencallforhelp = true
+	#弓箭手攻击伤害乘数。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	rangerdamagemult = 1.5
+	#骑士攻击伤害乘数。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	knightdamagemult = 1.0
+	#所有卫兵的生命值的乘数。 [默认：1.000000，最小：0.100000，最大：5.000000
+	#Range: 0.1 ~ 5.0
+	guardhealthmult = 2.0
+	#开启PVP模式 (在特定情况下，殖民地可以被摧毁、损坏)。 [默认: false]
+	pvp_mode = false
+	#海盗船存在的天数. [默认：3，最小：1，最大：10]
+	#Range: 1 ~ 10
+	daysuntilpirateshipsdespawn = 3
+	#入侵者生成的最大高度 (即 y轴 数值)。 [默认：200，最小：1，最大：500]
+	#Range: 1 ~ 500
+	maxyforbarbarians = 200
+
+#所有权限配置选项
+[permissions]
+	#是否启用殖民地保护？ [默认: true]
+	enablecolonyprotection = true
+	#此项独立于殖民地保护，是否禁止殖民地内产生爆炸效果与破坏？ 
+	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	#特殊权限的玩家，特点是可更改公民姓名(见“姓名更改”选项)。 
+	specialpermgroup = ["_Raycoms_"]
+	#可供玩家在任意殖民地进行交互的方块（例如：自动贩卖机） 
+	freetointeractblocks = ["dirt", "0 0 0"]
+	#每个权限消息记录的秒数间隔（以减少垃圾日志）。 [默认：30，最小：1，最大：1000]
+	#Range: 1 ~ 1000
+	secondsBetweenPermissionMessages = 30
+	#minecolonies.config.maxkeptbackups.comment [默认：50，最小：3，最大：5000]
+	#Range: 3 ~ 5000
+	maxkeptbackups = 50
+
+#所有的配置选项均与模组兼容性有关
+[compatibility]
+	#已识别并启用的标签列表。 
+	enabledmodtags = ["minecraft:wool", "minecraft:planks", "minecraft:stone_bricks", "minecraft:wooden_buttons", "minecraft:buttons", "minecraft:carpets", "minecraft:wooden_doors", "minecraft:wooden_stairs", "minecraft:wooden_slabs", "minecraft:wooden_fences", "minecraft:wooden_pressure_plates", "minecraft:wooden_trapdoors", "minecraft:saplings", "minecraft:logs", "minecraft:dark_oak_logs", "minecraft:oak_logs", "minecraft:birch_logs", "minecraft:acacia_logs", "minecraft:jungle_logs", "minecraft:spruce_logs", "minecraft:banners", "minecraft:sand", "minecraft:walls", "minecraft:anvil", "minecraft:leaves", "minecraft:small_flowers", "minecraft:beds", "minecraft:fishes", "minecraft:signs", "minecraft:music_discs", "minecraft:arrows", "forge:bones", "forge:bookshelves", "forge:chests/ender", "forge:chests/trapped", "forge:chests/wooden", "forge:cobblestone", "forge:crops/beetroot", "forge:crops/carrot", "forge:crops/nether_wart", "forge:crops/potato", "forge:crops/wheat", "forge:dusts/prismarine", "forge:dusts/redstone", "forge:dusts/glowstone", "forge:dyes", "forge:dyes/black", "forge:dyes/red", "forge:dyes/green", "forge:dyes/brown", "forge:dyes/blue", "forge:dyes/purple", "forge:dyes/cyan", "forge:dyes/light_gray", "forge:dyes/gray", "forge:dyes/pink", "forge:dyes/lime", "forge:dyes/yellow", "forge:dyes/light_blue", "forge:dyes/magenta", "forge:dyes/orange", "forge:dyes/white", "forge:eggs", "forge:ender_pearls", "forge:feathers", "forge:fence_gates", "forge:fence_gates/wooden", "forge:fences", "forge:fences/nether_brick", "forge:fences/wooden", "forge:gems/diamond", "forge:gems/emerald", "forge:gems/lapis", "forge:gems/prismarine", "forge:gems/quartz", "forge:glass", "forge:glass/black", "forge:glass/blue", "forge:glass/brown", "forge:glass/colorless", "forge:glass/cyan", "forge:glass/gray", "forge:glass/green", "forge:glass/light_blue", "forge:glass/light_gray", "forge:glass/lime", "forge:glass/magenta", "forge:glass/orange", "forge:glass/pink", "forge:glass/purple", "forge:glass/red", "forge:glass/white", "forge:glass/yellow", "forge:glass_panes", "forge:glass_panes/black", "forge:glass_panes/blue", "forge:glass_panes/brown", "forge:glass_panes/colorless", "forge:glass_panes/cyan", "forge:glass_panes/gray", "forge:glass_panes/green", "forge:glass_panes/light_blue", "forge:glass_panes/light_gray", "forge:glass_panes/lime", "forge:glass_panes/magenta", "forge:glass_panes/orange", "forge:glass_panes/pink", "forge:glass_panes/purple", "forge:glass_panes/red", "forge:glass_panes/white", "forge:glass_panes/yellow", "forge:gravel", "forge:gunpowder", "forge:heads", "forge:ingots/brick", "forge:ingots/gold", "forge:ingots/iron", "forge:ingots/nether_brick", "forge:leather", "forge:mushrooms", "forge:nether_stars", "forge:netherrack", "forge:nuggets/gold", "forge:nuggets/iron", "forge:obsidian", "forge:ores/coal", "forge:ores/diamond", "forge:ores/emerald", "forge:ores/gold", "forge:ores/iron", "forge:ores/lapis", "forge:ores/quartz", "forge:ores/redstone", "forge:rods/blaze", "forge:rods/wooden", "forge:sand", "forge:sand/colorless", "forge:sand/red", "forge:sandstone", "forge:seeds", "forge:seeds/beetroot", "forge:seeds/melon", "forge:seeds/pumpkin", "forge:seeds/wheat", "forge:slimeballs", "forge:stained_glass", "forge:stained_glass_panes", "forge:stone", "forge:storage_blocks/coal", "forge:storage_blocks/diamond", "forge:storage_blocks/emerald", "forge:storage_blocks/gold", "forge:storage_blocks/iron", "forge:storage_blocks/lapis", "forge:storage_blocks/quartz", "forge:storage_blocks/redstone", "forge:string"]
+	#市民在图书馆中所消耗的物品。 
+	configliststudyitems = ["minecraft:paper;400;100", "minecraft:book;600;10"]
+	#酒馆客人需求物品 
+	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
+	#低权重矿物列表，矿工更少地获得列表内的矿物 (参考 ”矿物权重“选项) 格式: 方块! 权重 
+	luckyores = ["minecraft:coal_ore!32", "minecraft:cobblestone!96", "minecraft:iron_ore!16", "minecraft:gold_ore!8", "minecraft:redstone_ore!4", "minecraft:lapis_ore!2", "minecraft:diamond_ore!1", "minecraft:emerald_ore!1"]
+	#附魔师经验值系数(附魔师能从市民处获得比市民更多/更少的经验)。 [默认：2.000000，最小：1.000000，最大：10.000000
+	#Range: 1.0 ~ 10.0
+	enchanterexperiencemultiplier = 2.0
+	#林务员种植、采伐树木的区块大小：1~8。 [默认：5，最小：1，最大：8]
+	#Range: 1 ~ 8
+	dynamictreeharvestsize = 5
+	#T2 级别的渔夫小屋可使用的未附魔鱼竿最大耐久偏移量，偏移量基于铁质工具的耐久(250)。如果使用了热力基本 (Thermal Foundation) Mod，则比较值需要额外 +6。T3 级别的小屋可以使用任意耐久的未附魔鱼竿，只要渔夫不会因此受到伤害。这个值一旦低于 -250，则只允许使用我的世界的原版鱼竿，除非 T1 设置了允许。 [默认：6，最小：-249，最大：250000]
+	#Range: -249 ~ 250000
+	fishingroddurabilityadjustt2 = 6
+	#T1 级别的渔夫小屋可使用的未附魔鱼竿最大耐久偏移量，偏移量基于其他木质工具的耐久(59)。我的世界的原版鱼竿将始终可用，但是其他鱼竿替代品需要 +6 的偏移量。默认值最大允许到热力基本 (Thermal Foundation) Mod 的银质工具耐久 (80)。这个值一旦低于 -59，则只允许使用原版鱼竿。 [默认：22，最小：-58，最大：250000]
+	#Range: -58 ~ 250000
+	fishingroddurabilityadjustt1 = 22
+	#所有市民可能发生的疾病、名称、频率以及相应的治疗药物。 
+	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honey_bottle,minecraft:golden_apple"]
+	#开启建筑物库存的调试。 [默认: false]
+	debuginventories = false
+
+#所有与寻路有关的配置
+[pathfinding]
+	#更详细的寻路调试信息 [默认：0，最小：0，最大：10]
+	#Range: 0 ~ 10
+	pathfindingdebugverbosity = 0
+	#市民会去使用最短多少格连续的铁轨。 [默认：8，最小：5，最大：100]
+	#Range: 5 ~ 100
+	minimumrailstopath = 8
+	#用于寻路的线程数量。 [默认：2，最小：1，最大：10]
+	#Range: 1 ~ 10
+	pathfindingmaxthreadcount = 4
+
+#所有与请求系统有关的配置
+[requestSystem]
+	#是否显示请求系统的调试信息？出现问题时建议开启。 [默认: false]
+	enabledebuglogging = false
+	#请求系统对可重试的请求执行多少次请求。值越大，服务器负载越高。 [默认：3，最小：1，最大：10]
+	#Range: 1 ~ 10
+	maximalretries = 3
+	#请求系统对可重试请求的请求的间隔(单位为 Tick)，降低会增加服务器负载。 [默认：1200，最小：30，最大：10000]
+	#Range: 30 ~ 10000
+	delaybetweenretries = 1200
+	#当一个需要玩家介入的请求产生时，请求系统是否尝试去处理这一请求？ [默认: false]
+	creativeresolve = false
+	#是否允许玩家使用 /mc colony requestsystem-reset 命令？ [默认: false]
+	canplayeruseresetcommand = false
+
